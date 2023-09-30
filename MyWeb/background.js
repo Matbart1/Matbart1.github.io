@@ -2,16 +2,16 @@
     var images = ['MyWeb/Images/Bird.JPG',
     'MyWeb/Images/Rocks.JPG',
     'MyWeb/Images/Squirrel.JPG',
-    'MyWeb/Images/Bunny.jpg',
-    'MyWeb/Images/City.jpg',
-    'MyWeb/Images/Fern.jpg',
-    'MyWeb/Images/Moon.jpg',
-    'MyWeb/Images/Moth.jpg',
-    'MyWeb/Images/Night.jpg',
-    'MyWeb/Images/Sunset.jpg',
-    'MyWeb/Images/Wood.jpg',
-    'MyWeb/Images/Land.jpg',
-    'MyWeb/Images/Forest.jpg'];
+    'MyWeb/Images/Bunny.JPG',
+    'MyWeb/Images/City.JPG',
+    'MyWeb/Images/Fern.JPG',
+    'MyWeb/Images/Moon.JPG',
+    'MyWeb/Images/Moth.JPG',
+    'MyWeb/Images/Night.JPG',
+    'MyWeb/Images/Sunset.JPG',
+    'MyWeb/Images/Wood.JPG',
+    'MyWeb/Images/Land.JPG',
+    'MyWeb/Images/Forest.JPG'];
 
     var index = -1;
 
