@@ -23,6 +23,9 @@
         <input type="button" value="Courses Redirect" >
      </div>
     <div id="main">
+        <?PHP
+        echo '<div id="middleLeft"> <img src="Images/Squirrel.JPG" alt="HTML5 Icon"> </div>' 
+        ?>
         <div id="middleLeft">
             <img src="Images/Squirrel.JPG" alt="HTML5 Icon">
         </div>
