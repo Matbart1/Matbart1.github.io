@@ -5,15 +5,18 @@
     'MyWeb/Images/Bunny.jpg',
     'MyWeb/Images/City.jpg',
     'MyWeb/Images/Fern.jpg',
-    'MyWeb/Images/moon.jpg',
-    'MyWeb/Images/moth.jpg',
-    'MyWeb/Images/night.jpg',
-    'MyWeb/Images/sunset.jpg',
-    'MyWeb/Images/wood.jpg',
-    'MyWeb/Images/land.jpg',
-    'MyWeb/Images/forest.jpg'];
+    'MyWeb/Images/Moon.jpg',
+    'MyWeb/Images/Moth.jpg',
+    'MyWeb/Images/Night.jpg',
+    'MyWeb/Images/Sunset.jpg',
+    'MyWeb/Images/Wood.jpg',
+    'MyWeb/Images/Land.jpg',
+    'MyWeb/Images/Forest.jpg'];
+
     var index = -1;
+
     const reader = document.querySelector('.ssBtn');
+
     reader.addEventListener('click', displayImage);
 
     function displayImage(imgArray)
