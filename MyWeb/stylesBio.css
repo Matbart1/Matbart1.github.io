@@ -1,36 +1,41 @@
 html{
-    height: 95vh;
+    height: auto;
     font-family: Helvetica, sans-serif;
-    background-color: rgb(78, 40, 4);
+    background-color: #6f3baa;
     border-style: solid;
     border-radius: 10px;
     border-width: 22px;
-    border-color: darkorange;
+    border-color: #b18ace;
     margin: 0;
 }
 
 body{
-    height: 85vh;
+    height: auto;
     display: grid;
-    grid-template-rows: 0.2fr 1fr 0.2fr;
+    grid-template-rows: 0.1fr 1.2fr 0.2fr;
     grid-template-columns: 1fr 1fr 1fr;
     color: white;
-    text-shadow: 3px 3px 5px green;
+    text-shadow: 3px 3px 5px #230215;
     border-style: solid;
     border-radius: 10px;
-    border-color: darkorange;
+    border-color: #b18ace;
     padding: 30px;
     margin: 20px;
     margin-top: 15px;
     align-items: center;
-    background-color: darkslateblue;
+    background-color: #23190a;
 }
 
 img
 {
+    max-width: 75%;
     height: auto;
-width: 350px;
 border-radius: 10px;
+}
+
+#problem
+{
+    max-width: 50%;
 }
 #topLeft, #topMiddle, #topRight, #main, #middleLeft,
 #middleMiddle, #middleRight, #bottomMiddle, #bottomLeft,
@@ -38,7 +43,8 @@ border-radius: 10px;
 {
     border-style: solid;
     border-radius: 10px;
-    border-color: darkorange;
+    border-color: #b18ace;
+    background-color: #c28a37;
     height: 85%;
     padding: 5px;
     margin: 15PX;
@@ -51,7 +57,27 @@ border-radius: 10px;
 #middleLeft,
 #middleMiddle, #middleRight
 {
-background-color: darkslateblue;
+    background-color: #23190a;
+    display: grid;
+    grid-template-rows: 0.2fr 1fr;
+    text-align: justify;
+}
+
+
+div
+{
+    text-align: center;
+    align-items: center;
+}
+
+a:link,
+a:visited,
+a:active{
+    color: white;
+}
+a:hover
+{
+    color:#6f3baa
 }
 
 #topLeft
@@ -62,7 +88,7 @@ background-color: darkslateblue;
 {
     grid-column: 2 / 2;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.3fr;
 }
 #topRight
 {
@@ -74,25 +100,37 @@ background-color: darkslateblue;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column: 1/4;
-    background-color: rgb(78, 40, 4);
+    vertical-align: middle;
+    /* not even sure how this worked, but it centered everything perfectly */
+    display: flex;
 }
 
 #middleLeft
 {
     grid-column: 1/1;
-    background-color: darkorange;
+    grid-template-rows: 0.6fr 1fr;
+
 }
 #middleMiddle
 {
     grid-column: 2/2;
-    background-color: darkorange;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
 }
 #middleRight
 {
     grid-column: 3/3;
-    background-color: darkorange;
-
+    grid-template-rows: 0.2fr 1fr;
+    
+}
+#head
+{
+grid-column: 1/3;
+}
+ul{
+    padding-left: auto;
+    padding-right:2vh;
 }
 
 #bottomLeft
