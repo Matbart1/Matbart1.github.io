@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    height: auto;
+    height: 94vh;
     display: grid;
     grid-template-rows: 0.1fr 1.2fr 0.2fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -59,8 +59,9 @@ border-radius: 10px;
 {
     background-color: #23190a;
     display: grid;
-    grid-template-rows: 0.2fr 1fr;
+    grid-template-rows: 0.2fr 1.3fr;
     text-align: justify;
+    max-width: 45vh;
 }
 
 
@@ -98,7 +99,6 @@ a:hover
 #main
 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-column: 1/4;
     vertical-align: middle;
     /* not even sure how this worked, but it centered everything perfectly */
@@ -107,21 +107,24 @@ a:hover
 
 #middleLeft
 {
-    grid-column: 1/1;
-    grid-template-rows: 0.6fr 1fr;
+    display: grid;
+    grid-template-rows: 0.3fr 1fr;
+    min-width: 15vh;
 
 }
 #middleMiddle
 {
-    grid-column: 2/2;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.2fr 1fr;
+    grid-template-rows: 0.3fr 1fr;
+    min-width: 20vh;
+
 }
 #middleRight
 {
-    grid-column: 3/3;
-    grid-template-rows: 0.2fr 1fr;
+    display: grid;
+    grid-template-rows: 0.3fr 1fr;
+    min-width: 15vh;
+
     
 }
 #head
@@ -133,16 +136,19 @@ ul{
     padding-right:2vh;
 }
 
-#bottomLeft
+#btn
 {
-
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
 }
-#bottomMiddle
+#btn:hover
 {
-
-
-}
-#bottomRight
-{
-
+    background-color:#b18ace;
+    cursor: grab;
 }
