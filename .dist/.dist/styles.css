@@ -1,0 +1,12 @@
+html{
+    background-color: aquamarine;
+}
+body{
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    background-color: lightblue;
+}
