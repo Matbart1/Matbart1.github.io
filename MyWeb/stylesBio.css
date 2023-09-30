@@ -59,7 +59,7 @@ border-radius: 10px;
 {
     background-color: #23190a;
     display: grid;
-    grid-template-rows: 0.2fr 1.3fr;
+    grid-template-rows: 0.1fr 1.3fr;
     text-align: justify;
     max-width: 45vh;
 }

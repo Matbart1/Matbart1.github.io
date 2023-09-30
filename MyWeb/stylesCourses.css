@@ -14,8 +14,8 @@ body{
     display: grid;
     grid-template-rows: 0.1fr 1.2fr 0.2fr;
     grid-template-columns: 1fr 1fr 1fr;
-    color: white;
-    text-shadow: 3px 3px 5px #230215;
+    color:#b18ace;
+    text-shadow: 3px 3px 5px blue;
     border-style: solid;
     border-radius: 10px;
     border-color: #b18ace;

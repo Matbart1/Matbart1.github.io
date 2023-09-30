@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/MyWeb/background.js" defer></script>
     <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
 </head>
+
 <body>
     <div id="topLeft">
         <a href="/MyWeb/bio.html">
-            <input type="button" id="btn" value="Bio Redirect" >
+            <input type="button" id="btn" value="Bio Redirect">
         </a>
     </div>
     <div id="topMiddle">
@@ -23,23 +26,42 @@
     </div>
     <div id="topRight">
         <a href="/MyWeb/courses.html">
-            <input type="button" id="btn" value="Courses Redirect" >
+            <input type="button" id="btn" value="Courses Redirect">
         </a>
-     </div>
+    </div>
     <div id="main">
         <div id="middleLeft">
-            <img src="MyWeb/Images/Squirrel.JPG" alt="HTML5 Icon">
+            <div>
+                <img src="MyWeb/Images/Tech.png" id="problem" alt="HTML5 Icon">
+            </div>
+            <div>
+                <h6>My current tech stack </h6>
+            </div>
         </div>
         <div id="middleMiddle">
-            <img src="MyWeb/Images/Tech.png" id="problem" alt="HTML5 Icon">
-       </div>
-       <div id="middleRight">
-        <img src="MyWeb/Images/Rocks.JPG" alt="HTML5 Icon">
+            <div id="slideShow">
+                <img name="slide">
+            </div>
+            <div>
+                <input type="button" class="ssBtn" id="btn2" value="Next">
+            </div>
+            <div>
+                <h6>Taken by myself with my Nikon D3400 DLSR Camera </h6>
+            </div>
+        </div>
+    <div id="middleRight">
+        <div>
+            <img src="MyWeb/Images/Me.JPG" alt="HTML5 Icon">
+        </div>
+        <div>
+            <h6>Me! </h6>
+        </div>
+    </div>
     </div>
     </div>
     <div id="bottomLeft">
         <a href="https://www.youtube.com/watch?v=lXMskKTw3Bc">
-            <input type="button" id="btn" value="Favorite Video" >
+            <input type="button" id="btn" value="Favorite Video">
         </a>
     </div>
     <div id="bottomMiddle">
@@ -49,9 +71,10 @@
     </div>
     <div id="bottomRight">
         <a href="/MyWeb/contact.html">
-            <input type="button" id="btn" value="Contact Information" >
+            <input type="button" id="btn" value="Contact Information">
         </a>
     </div>
 
 </body>
+
 </html>
